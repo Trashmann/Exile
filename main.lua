@@ -1,13 +1,13 @@
 local GAME = require "game"
-
+local TILES = require "tile"
 function love.load()
-GAME_MAIN()
+TILES_LOAD()
 end
 
 function love.update(dt)
-GAME_UPDATE(dt)
+
 end
 
 function love.draw()
-GAME_DRAW()
+TILES_DRAW()
 end
